@@ -1,0 +1,19 @@
+body {
+  background-color: #1c0c66;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+nav img {
+  width: 40px;
+  border-radius: 100%;
+}
