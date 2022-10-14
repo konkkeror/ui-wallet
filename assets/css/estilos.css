@@ -92,3 +92,44 @@ nav img {
   display: flex;
   justify-content: space-between;
 }
+
+.transaccion {
+  display: flex;
+  margin: 5px 10px 10px 10px;
+  padding: 25px 20px;
+  background-color: #321f8e;
+  border-radius: 20px;
+  color: #fff;
+  align-items: center;
+}
+
+#transacciones {
+  margin-top: 80px;
+}
+
+.transaccion .icono {
+  font-size: 2rem;
+  padding: 0 10px 0 0;
+}
+
+.transaccion .icono span {
+  background-color: #5b45cc;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaccion .texto {
+  flex: 1;
+}
+
+.transaccion .texto .titulo{
+  font-size: 1.3rem;
+}
+.transaccion .texto .descripcion{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
