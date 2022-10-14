@@ -17,3 +17,78 @@ nav img {
   width: 40px;
   border-radius: 100%;
 }
+
+
+#marca {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  border-radius: 25px;
+  padding: 20px 25px;  
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contenedor-tarjeta {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 25px 10px;
+  border-radius: 25px;
+
+  height: 180px;
+  position: absolute;
+  width: 95%;
+  left: 0;
+  top: 29px;
+  z-index: -2;
+}
+
+#saldo {
+  margin: 25px 0;
+}
+
+#saldo .etiqueta {
+  font-size: 0.7rem;
+  color: rgb(222, 222, 222);
+}
+
+#saldo .valor {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+#saldo .ceros {
+  font-size: 1rem;
+}
+
+/*  */
+
+.valores .etiqueta {
+  font-size: 0.6rem;
+  color: rgb(222, 222, 222);
+}
+
+.valores .valor {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.valores .ceros {
+  font-size: 0.7rem;
+}
+
+.contenedor-valores {
+  display: flex;
+  justify-content: space-between;
+}
