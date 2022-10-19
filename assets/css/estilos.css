@@ -25,10 +25,13 @@ nav img {
   justify-content: space-between;
 }
 
+#tarjeta {
+  display: none;
+}
+
 .tarjeta {
   border-radius: 25px;
   padding: 20px 25px;  
-
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -133,3 +136,14 @@ nav img {
   color: rgba(255, 255, 255, 0.5);
 }
 
+
+#lista-tarjetas {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1.4rem;
+  padding: 10px;
+  background-color: #493795;
+  color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}

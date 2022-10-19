@@ -14,25 +14,29 @@
     <div>Wallet</div>
     <div><img src="assets/img/profile.jpg"></div>
   </nav>  
+  <div>
+    <select id="lista-tarjetas" onchange="seleccionarTarjeta()">
+    </select>
+  </div>
   <main>
-    <section style="position: relative;">
+    <section style="position: relative;" id="tarjeta">
       <div class="tarjeta">
         <div id="marca">
-          <div><i class="fa-brands fa-cc-mastercard"></i> Mastercard</div>
+          <div id="nombre-marca"></div>
           <div><i class="fa-solid fa-sim-card"></i></div>
         </div>
         <div id="saldo">
           <div class="etiqueta">Total Assets (USD)</div>
-          <div class="valor">29,768<span class="ceros">.00</span></div>
+          <div class="valor"></div>
         </div>
         <div class="contenedor-valores">
           <div class="valores">
             <div class="etiqueta">Asset Wallet</div>
-            <div class="valor">27,329<span class="ceros">.00</span></div>
+            <div class="valor" id="asset-wallet"></div>
           </div>
           <div class="valores">
             <div class="etiqueta">Consumption</div>
-            <div class="valor">2,438<span class="ceros">.43</span></div>
+            <div class="valor" id="consumption"></div>
           </div>
         </div>
       </div>
@@ -40,53 +44,13 @@
         
       </div>
     </section>
+
     <!-- Lista de transacciones -->
     <section id="transacciones">
-      <div class="transaccion">
-        <div class="icono">
-          <span>
-            <i class="fa-solid fa-burger"></i>
-          </span>
-        </div>
-        <div class="texto">
-          <div class="titulo">Food</div>
-          <div class="descripcion">Monday morning</div>
-        </div>
-        <div class="monto">
-          $26.00
-        </div>
-      </div>
-
-      <div class="transaccion">
-        <div class="icono">
-          <span>
-            <i class="fa-solid fa-burger"></i>
-          </span>
-        </div>
-        <div class="texto">
-          <div class="titulo">Food</div>
-          <div class="descripcion">Monday morning</div>
-        </div>
-        <div class="monto">
-          $26.00
-        </div>
-      </div>
-
-      <div class="transaccion">
-        <div class="icono">
-          <span>
-            <i class="fa-solid fa-burger"></i>
-          </span>
-        </div>
-        <div class="texto">
-          <div class="titulo">Food</div>
-          <div class="descripcion">Monday morning</div>
-        </div>
-        <div class="monto">
-          $26.00
-        </div>
-      </div>
+      
     </section>
   </main>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/controlador.js"></script>
 </body>
 </html>
